@@ -14,7 +14,7 @@ clean_symbol = re.compile('[^0-9a-z #+_]')
 stopworda = set(['were', 'should', "needn't", 'just', 'not', 's', "it's", 'between', 'are', 'all', 'did', 'until', 'will', 'your', 'against', 'needn', 'that', 'very', 'to', "shan't", 'in', 'doing', "hadn't", 'he', "couldn't", 'what', 'such', 'too', 'an', 'here', 'won', 'they', 've', "weren't", 'both', 'other', 'why', 'above', 'same', 'ma', 'ours', 'm', "shouldn't", 'haven', 'before', "wasn't", 'him', 'shan', 'yourselves', 'by', 'yours', 'his', 'the', 'because', 'most', "haven't", 'was', 'any', 'my', 'but', 'then', 'their', 'our', 'y', 'nor', 'shouldn', 'didn', "you'll", "didn't", 'of', 'isn', 'wouldn', 'theirs', 'them', 'few', 'there', 'd', 'further', 'o', 'myself', 'ain', 'at', 'now', 'be', "wouldn't", 'doesn', 'during', 'hers', "isn't", 'yourself', 'hadn', 'weren', 'some', "aren't", "she's", "that'll", 'over', 'she', 't', 'while', 'couldn', 'these', 'hasn', 'with', 'its', 'this', 'we', 'down', "mightn't", 'ourselves', 'me', 'once', 'how', 'about', 'through', 'and', "you're", 'll', 'as', "don't", 'am', 'having', 'whom', "you'd", 'for', 'have', 'can', 're', 'who', 'had', 'themselves', 'it', 'itself', 'again', 'does', 'i', 'into', 'if', 'her', "mustn't", "you've", "won't", 'those', 'on', 'or', 'under', 'only', 'so', 'mustn', 'a', 'don', 'being', 'is', 'where', 'herself', 'wasn', 'off', 'more', 'up', 'has', 'below', 'no', 'been', 'do', 'own', "should've", 'aren', "doesn't", "hasn't", 'than', 'which', 'each', 'from', 'you', 'when', 'after', 'out', 'himself', 'mightn'])
 
 # Dataset
-url = 'https://raw.githubusercontent.com/nakhwaazizah/Sephora/main/PreprocessingDatasetSephora.csv'
+url = 'https://raw.githubusercontent.com/psyifa/Sephora/main/PreprocessingDatasetSephora.csv'
 Data = pd.read_csv(url)
 
 # Page
