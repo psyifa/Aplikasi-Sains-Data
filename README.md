@@ -4,4 +4,4 @@ Aplikasi tersebut memberikan akses cepat dan mudah bagi pengguna untuk mencari p
 
 Dataset yang digunakan adalah "Sephora Products and Skincare Reviews" merupakan kumpulan data yang didapatkan pada bulan march 2023. Pada dataset tersebut terdapat 2 data berbeda yaitu product_info dan review.
 
-Link aplikasi : https://aplikasi-sains-data-gjvxjjbgahyxxdfttfgt4a.streamlit.app/
+Link aplikasi : https://beautythings-psyifa.streamlit.app/
