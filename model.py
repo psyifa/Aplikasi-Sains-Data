@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
 # Load the dataset
-url = 'https://raw.githubusercontent.com/nakhwaazizah/Sephora/main/PreprocessingDatasetSephora.csv'
+url = 'https://raw.githubusercontent.com/psyifa/Sephora/main/PreprocessingDatasetSephora.csv'
 data = pd.read_csv(url)
 
 # Split the dataset into training and testing sets
