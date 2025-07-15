@@ -70,7 +70,7 @@ def main():
     Data['review_clean'] = Data['review_text'].apply(clean_text)
 
     Data.set_index('product_name', inplace=True)
-    tf = TfidfVectorizer(analyzer='word', ngram_range=(1, 3), min_df=0, stop_words='english')
+    tf = TfidfVectorizer(analyzer='word', ngram_range=(1, 3), min_df=1, stop_words='english')
     tfidf_matrix = tf.fit_transform(Data['review_clean'])
     cos_sim = cosine_similarity(tfidf_matrix, tfidf_matrix)
     
