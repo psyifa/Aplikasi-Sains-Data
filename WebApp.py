@@ -104,7 +104,7 @@ def main():
         })
         st.table(Rprint)
     else:
-        st.info("Tidak ada rekomendasi yang tersedia untuk produk ini.")
+        st.info("No recommendations available for this product.")
 
 if __name__ == "__main__":
     main()
